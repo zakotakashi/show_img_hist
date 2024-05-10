@@ -8,7 +8,6 @@
         "ms-python.pylint",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "njpwerner.autodocstring",
         "visualstudioexptteam.vscodeintellicode-completions",
         "visualstudioexptteam.vscodeintellicode",
     ]
