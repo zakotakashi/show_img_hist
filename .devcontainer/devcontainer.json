@@ -1,3 +1,5 @@
 {
-        "workspaceFolder": "/mnt"
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "mypython",
+    "workspaceFolder": "/mnt"
 }

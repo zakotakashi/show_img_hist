@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "mhutchie.git-graph",
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-python.black-formatter",
+        "ms-python.autopep8",
+        "ms-python.flake8",
+        "ms-python.pylint",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "visualstudioexptteam.vscodeintellicode-completions",
+        "visualstudioexptteam.vscodeintellicode",
+    ]
+}

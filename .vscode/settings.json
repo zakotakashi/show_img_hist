@@ -1,0 +1,26 @@
+{
+    "editor.rulers": [
+        80,
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    //
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    //
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "[python]": {
+        // "editor.defaultFormatter": "ms-python.black-formatter",
+        // "editor.defaultFoldingRangeProvider": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+}
