@@ -1,9 +1,11 @@
 FROM python:slim
 
+RUN apt -y update && apt -y install git
+
 COPY requirements.txt /root/
 RUN pip install -U pip \
     && pip install -r /root/requirements.txt
 
-COPY main.py start.sh /root/
-# RUN chmod +x /root/start.sh
-CMD [ "bash", "/root/start.sh" ]
+CMD [ "bash", "/mnt/start-local.sh" ]
+
+WORKDIR /mnt
