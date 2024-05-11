@@ -9,8 +9,11 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_
 
 im = imread(img_url)
 
-st.image(im, caption='image from wikimedia commons',
-         use_column_width=True)
+st.image(
+    im,
+    caption='image from wikimedia commons',
+    use_column_width=True
+)
 
 
 # show histgram of all colors
@@ -26,7 +29,8 @@ st.bar_chart(df_hist)
 # choose one color
 color = st.radio(
     "choose R, G, or B",
-    ('R', 'G', 'B'))
+    ('R', 'G', 'B')
+)
 if color == 'R':
     df_hist = pd.DataFrame(hist_red)
     st.bar_chart(df_hist)
